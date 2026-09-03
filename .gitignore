@@ -1,0 +1,9 @@
+# Upstream OpenDesign source clone (working copy for analysis; public upstream)
+opendesign/
+# Python
+__pycache__/
+*.pyc
+# Env files (real secrets must never be committed)
+.env
+*.local.env
+opendesign-space/.git-hf-space-backup/
